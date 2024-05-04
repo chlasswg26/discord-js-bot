@@ -1,15 +1,15 @@
 module.exports = {
   OWNER_IDS: ["993697969213820979"], // Bot owner ID's
-  SUPPORT_SERVER: "", // Your bot support server
+  SUPPORT_SERVER: "1236136464895443045", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: "!", // Default prefix for the bot
+    DEFAULT_PREFIX: ";", // Default prefix for the bot
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
     CONTEXT: true, // Should contexts be enabled
     GLOBAL: false, // Should the interactions be registered globally
-    TEST_GUILD_ID: "xxxxxxxxxxx", // Guild ID where the interactions should be registered. [** Test you commands here first **]
+    TEST_GUILD_ID: "1236136464895443045", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
     BOT_EMBED: "#068ADD",
@@ -39,7 +39,7 @@ module.exports = {
     enabled: true, // enable or disable dashboard
     baseURL: "https://plum-worried-panda.cyclic.app", // base url
     failureURL: "https://plum-worried-panda.cyclic.app", // failure redirect url
-    port: "8080", // port to run the bot on
+    port: "3000", // port to run the bot on
   },
 
   ECONOMY: {
@@ -103,7 +103,7 @@ module.exports = {
   },
 
   PRESENCE: {
-    ENABLED: false, // Whether or not the bot should update its status
+    ENABLED: true, // Whether or not the bot should update its status
     STATUS: "online", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
     MESSAGE: "{members} members in {servers} servers", // Your bot status message
@@ -116,7 +116,7 @@ module.exports = {
   },
 
   SUGGESTIONS: {
-    ENABLED: false, // Should the suggestion system be enabled
+    ENABLED: true, // Should the suggestion system be enabled
     EMOJI: {
       UP_VOTE: "⬆️",
       DOWN_VOTE: "⬇️",
