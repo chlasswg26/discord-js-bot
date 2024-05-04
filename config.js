@@ -36,9 +36,9 @@ module.exports = {
   },
 
   DASHBOARD: {
-    enabled: false, // enable or disable dashboard
-    baseURL: "http://localhost:8080", // base url
-    failureURL: "http://localhost:8080", // failure redirect url
+    enabled: true, // enable or disable dashboard
+    baseURL: "https://plum-worried-panda.cyclic.app", // base url
+    failureURL: "https://plum-worried-panda.cyclic.app", // failure redirect url
     port: "8080", // port to run the bot on
   },
 
@@ -76,8 +76,8 @@ module.exports = {
   },
 
   IMAGE: {
-    ENABLED: false,
-    BASE_API: "https://strangeapi.hostz.me/api",
+    ENABLED: true,
+    BASE_API: "https://plum-worried-panda.cyclic.app/api",
   },
 
   INVITE: {
